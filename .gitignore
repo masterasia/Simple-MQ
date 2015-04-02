@@ -1,0 +1,11 @@
+*.class
+
+#Ignore Intellij Idea files.
+target
+.idea
+*.iml
+
+#Ignore eclispe files.
+.settings
+.classpath
+.project
