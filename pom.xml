@@ -11,20 +11,22 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
+
     <groupId>com.xt</groupId>
     <artifactId>Simple-MQ</artifactId>
     <version>1.0.0</version>
     <inceptionYear>2015</inceptionYear>
     <packaging>pom</packaging>
+
     <name>SimpleMQ ${project.version}</name>
     <url>https://github.com/masterasia/Simple-MQ</url>
 
     <modules>
-        <module>sender</module>
-        <module>receiver</module>
         <module>common</module>
         <module>rpc</module>
         <module>store</module>
+        <module>sender</module>
+        <module>receiver</module>
     </modules>
     <developers>
 
