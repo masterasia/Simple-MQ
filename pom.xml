@@ -21,8 +21,9 @@
 
     <modules>
         <module>sender</module>
-        <module>receive</module>
+        <module>receiver</module>
         <module>common</module>
+        <module>rpc</module>
     </modules>
     <developers>
 
