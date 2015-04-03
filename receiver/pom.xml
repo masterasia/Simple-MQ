@@ -15,6 +15,17 @@
     <packaging>jar</packaging>
 
     <dependencies>
+        <dependency>
+            <groupId>com.xt</groupId>
+            <artifactId>simplemq-rpc</artifactId>
+            <version>1.0.0</version>
+        </dependency>
 
+        <dependency>
+            <groupId>com.xt</groupId>
+            <artifactId>simplemq-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
+
 </project>

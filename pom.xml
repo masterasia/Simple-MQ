@@ -24,6 +24,7 @@
         <module>receiver</module>
         <module>common</module>
         <module>rpc</module>
+        <module>store</module>
     </modules>
     <developers>
 
