@@ -11,7 +11,7 @@ public class Reveiver {
     }
 
     private static void init() {
-        Log.init("receiver", Config.getConf("", ""), Short.parseShort(Config.getConf("", "")));
+        Log.init("receiver", Config.getConf("receive", ""), Short.parseShort(Config.getConf("", "")));
     }
 
     private static void start() throws UtilException {
