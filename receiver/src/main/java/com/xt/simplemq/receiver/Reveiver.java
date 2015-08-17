@@ -6,8 +6,9 @@ import com.xt.simplemq.util.*;
  * Created by robert.xu on 2015/4/3.
  */
 public class Reveiver {
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws UtilException {
+        init();
+        start();
     }
 
     private static void init() {

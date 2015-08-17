@@ -38,7 +38,7 @@ public class Log implements FileConstant {
         }
     };
 
-    private static String _name = "noname";
+    private static String _name = "unknown";
 
     private static String _path = "";
 
@@ -148,7 +148,7 @@ public class Log implements FileConstant {
         try {
             finalWriter = level >= LEVEL_WARN ? errFileWriter : fileWriter;
             StringBuffer argvStr = new StringBuffer();
-            if (null != argv && argv.isEmpty() == false) {
+            if (null != argv && !argv.isEmpty()) {
                 for (String k : argv.keySet()) {
                     argvStr.append(String.format(" [%s:%s]", k, argv.get(k)));
                 }
